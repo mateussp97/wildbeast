@@ -1,3 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/*Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Bitter", serif;
+  font-weight: 500;
+  color: #252525;
+}
+
 img {
   max-width: 100px;
+}
+
+/*Grid Geral*/
+.structure {
+  display: grid;
+  grid-template-columns: minmax(160px, 1fr) 3fr 300px;
+  grid-template-areas:
+    "header header header"
+    "side-nav content announces"
+    "footer footer footer";
+}
+
+.header {
+  grid-area: header;
+}
+
+.side-nav {
+  grid-area: side-nav;
+}
+
+.content {
+  grid-area: content;
+}
+
+.announces {
+  grid-area: announces;
+}
+
+.footer {
+  grid-area: footer;
 }
