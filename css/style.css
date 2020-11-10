@@ -27,6 +27,20 @@ img {
   border-radius: 5px;
 }
 
+/*Default Class*/
+.col-wide {
+  grid-column: 1 / -1; /*Expandindo duas colunas*/
+}
+
+.image-1 {
+  grid-row: span 2; /*Expandindo duas linhas*/
+  align-self: end; /*Alinhando ao final*/
+}
+
+.image-2 {
+  align-self: end; /*Alinhando ao final*/
+}
+
 /*Grid Geral*/
 .structure {
   display: grid;
@@ -101,6 +115,12 @@ img {
 /*Content*/
 .content {
   grid-area: content;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
 }
 
 /*Anounces*/
