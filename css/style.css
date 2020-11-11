@@ -333,3 +333,13 @@ p {
   text-align: center;
   padding: 30px;
 }
+
+.footer-link {
+  font-size: 1.4em;
+  margin-right: 5px;
+  transition: 0.3s;
+}
+
+.footer-link:hover {
+  color: white;
+}
