@@ -10,7 +10,7 @@ Project made with the intention of testing all the functionalities of the CSS gr
 
 ## Project Link
 
-Access the project clicking [here]()
+Access the project clicking [here](https://mateussp97.github.io/wildbeast/)
 
 ## Technology
 
