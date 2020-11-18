@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="" title="WildBeast" src="./img/wildbeast.svg" width="300px" />
+    <img alt="" title="WildBeast" src="./img/logo.svg" width="300px" />
 </h1>
 
 # CSS Grid Layout
